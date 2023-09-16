@@ -173,8 +173,8 @@ header.sticky{
 	}
 	
 	.skills-container{
-	display: flexbox;
-	grid-tempLate-columns: repeat(3, 1fr);
+	display: grid;
+	grid-tempLate-columns: repeat(5, 1fr);
 	justify-content:center;
 	align-items:center;
 	text-align: center;
