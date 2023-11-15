@@ -8,11 +8,11 @@
 	scroll-behavior: smooth;
 }
 :root{
-	--bg-color: #fff;
-	--second-bg-color: #1F2F98;
-	--text-color: #000;
-	--second-color: #000;
-	--main-color:linear-gradient(to right,#009FFD,#2A2A72);
+	--bg-color: #2a2a2a;
+	--second-bg-color: #202020;
+	--text-color: #fff;
+	--second-color: #ccc;
+	--main-color: #B88A44;
 	--big-font: 3.8rem;
 	--h2-font: 3.6rem;
 	--h3-font: 3rem;
@@ -37,7 +37,7 @@ header{
 	transition: all .45s ease;
 }
 .logo{
-	color: linear-gradient(to right,#009FFD,#2A2A72);
+	color: var(--text-color);
 	font-size: 35px;
 	font-weight: 700;
 	letter-spacing: 1px;
@@ -77,7 +77,7 @@ section{
 	position: relative;
 	height: 100vh;
 	width: 100%;
-	background-image: url(https://static.vecteezy.com/system/resources/previews/000/830/014/large_2x/futuristic-banner-background-with-wireframe-terrain-vector.jpg);
+	background-image: url(../img/HERO\ custom.jpg);
 	background-size: cover;
 	background-position: center;
 	display: flex;
@@ -155,7 +155,7 @@ header.sticky{
 
 	.skills-header{
 	text-align: center;
-	color: #000;
+	color: #fff;
 	padding: 1rem;
 	position: relative;
 	}
@@ -405,7 +405,7 @@ header.sticky{
 }
 
 .contact{
-	background: lightgrey;
+	background: var(--second-bg-color);
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
