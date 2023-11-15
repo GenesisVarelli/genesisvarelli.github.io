@@ -405,7 +405,7 @@ header.sticky{
 }
 
 .contact{
-	background: linear-gradient(90deg, rgba(4,115,252,1) 0%, rgba(7,89,177,1) 38%, rgba(2,172,219,1) 72%, rgba(0,212,255,1) 100%);
+	background: lightgrey;
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	align-items: center;
