@@ -37,7 +37,7 @@ header{
 	transition: all .45s ease;
 }
 .logo{
-	color: var(--text-color);
+	color: linear-gradient(to right,#009FFD,#2A2A72);
 	font-size: 35px;
 	font-weight: 700;
 	letter-spacing: 1px;
