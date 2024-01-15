@@ -111,7 +111,7 @@ section{
 	font-size: var(--p-font);
 	line-height: 1.8;
 	margin-bottom: 40px;
-	width: 60%;
+	width: 100%;
 }
 .button{
 	display: inline-flex;
