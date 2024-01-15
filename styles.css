@@ -14,9 +14,9 @@
 	--second-color: #ccc;
 	--main-color: #B88A44;
 	--big-font: 3.8rem;
-	--h2-font: 3.6rem;
-	--h3-font: 3rem;
-	--p-font: 1.4rem;
+	--h2-font: 3.5rem;
+	--h3-font: 2.5rem;
+	--p-font: 1.2rem;
 }
 body{
 	background: var(--bg-color);
@@ -90,20 +90,20 @@ section{
 }
 .home-text h1{
 	font-size: var(--big-font);
-	font-weight: 700;
+	font-weight: 500;
 	color: var(--text-color);
 	line-height: 1.1;
 	margin: 0 0 8px;
 }
 .home-text h2{
 	font-size: var(--h2-font);
-	font-weight: 700;
+	font-weight: 620;
 }
 .home-text h3{
 	color: var(--text-color);
-	margin: 0 0 35px;
+	margin: 0 0 10px;
 	font-size: var(--h3-font);
-	font-weight: 700;
+	font-weight: 650;
 	line-height: 1.1;
 }
 .home-text p{
@@ -111,7 +111,7 @@ section{
 	font-size: var(--p-font);
 	line-height: 1.8;
 	margin-bottom: 40px;
-	width: 50%;
+	width: 60%;
 }
 .button{
 	display: inline-flex;
@@ -139,9 +139,42 @@ header.sticky{
 	padding: 12px 12%;
 }
 
+
+.about{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	gap: 1.5rem;
+}
+.about-img img{
+	max-width: 530px;
+	height: auto;
+	width: 100%;
+	border-radius: 8px;
+}
+.about-text h2{
+	font-size: var(--h2-font);
+	line-height: 1;
+}
+.about-text h4{
+	font-size: 24px;
+	font-weight: 600;
+	color: var(--text-color);
+	line-height: 1.7;
+	margin: 15px 0 30px;
+}
+.about-text p{
+	color: var(--second-color);
+	font-size: var(--p-font);
+	line-height: 1.8;
+	margin-bottom: 4rem;
+}
+
+
 /*Skills styling*/
 .skills-section{
 	padding-top: 20px;
+	background: var(--second-bg-color);
 	}
 
 	.skills-header h1{
